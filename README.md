@@ -29,6 +29,10 @@
 
 ## Templates
 
+- [Ryan Fitzgerald](https://github.com/RyanFitzgerald/devportfolio) | [Demo](https://ryanfitzgerald.github.io/devportfolio)
+- [Saadpasta](https://github.com/saadpasta/developerFolio) | [Demo](https://developerfolio.js.org/)
+- [itsron717](https://github.com/itsron717/ParticleGround-Portfolio) | [Demo](https://landing-page--itsron717.repl.co/)
+- [Mark MacNeil](https://github.com/mmacneil/devfolio) | [Demo](https://mmacneil.github.io/devfolio/)
 - [Vinay Somawat](https://github.com/vinaysomawat/vinaysomawat.github.io) | [Demo](https://vinaysomawat.github.io)
 - [Evanca](https://github.com/evanca/quick-portfolio) | [Demo](https://yourawesomeusername.github.io/)
 - [Sara Gong](https://github.com/saragong/hello/) | [Demo](https://saragong.github.io/hello/)
@@ -36,6 +40,9 @@
 - [Proyecto26](https://github.com/proyecto26/proyecto26.github.io) | [Demo](https://github.com/proyecto26/proyecto26.github.io)
 - [Kalaaji](https://github.com/kalaaji/kalaaji.github.io) | [Demo](https://kalaaji.github.io/)
 - [Aboualnaser](https://github.com/aboualnaser/aboualnaser.github.io/) | [Demo](https://aboualnaser.github.io/)
+- [Erwin Lejeune (me)](https://github.com/guilyx/guilyx.github.io/) | [Demo](https://guilyx.github.io)
+- [Hashir Shoaeb](https://github.com/hashirshoaeb/home) | [Demo](https://hashirshoaeb.com/)
+- [Ashutosh Hathidara](https://github.com/ashutosh1919/masterPortfolio) | [Demo](https://ashutoshhathidara.com/#/home)
 
 ## Tools
 
@@ -43,7 +50,7 @@
 
 ## Articles
 - ["Set Up Your Porfolio Website in Less Than 10 minutes with Github Pages"](https://blog.usejournal.com/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd) - *Ivanna Kacewica*
-- [8 Steps to Publish your Porfolio on Github](https://medium.com/tunapanda-institute/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84) - *Brian Mwevi*
+- ["8 Steps to Publish your Porfolio on Github"](https://medium.com/tunapanda-institute/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84) - *Brian Mwevi*
 
 ## Contribute
 
