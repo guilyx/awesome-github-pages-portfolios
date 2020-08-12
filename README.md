@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/></a><br>
 
 
-<i>A curated list of awesome Github Profile READMEs</i>
+<i>A curated list of awesome Github Pages hosted Porfolios</i>
 
 <a href="https://github.com/guilyx/awesome-github-pages-portfolios/stargazers"><img src="https://img.shields.io/github/stars/guilyx/awesome-github-pages-portfolios" alt="Stars Badge"/></a>
 <a href="https://github.com/guilyx/awesome-github-pages-portfolios/network/members"><img src="https://img.shields.io/github/forks/guilyx/awesome-github-pages-portfolios" alt="Forks Badge"/></a>
