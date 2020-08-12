@@ -1,8 +1,10 @@
 <h1 align="center">Awesome Github Pages Portfolio Templates</h1>
 <div align="center">
 <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
-<img src="http://hits.dwyl.com/guilyx/awesome-github-pages-portfolios.svg" alt="Hits Badge"/>
+<a href="https://saythanks.io/to/erwin.lejeune15%40gmail.com?style=flat-square"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg?style=flat-square" alt="Thx Badge"/></a>
+<a href="http://hits.dwyl.com/guilyx/awesome-github-pages-portfolios"><img src="http://hits.dwyl.com/guilyx/awesome-github-pages-portfolios.svg" alt="Thx Badge"/></a>
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/></a><br>
+
 
 <i>A curated list of awesome Github Profile READMEs</i>
 
@@ -60,3 +62,6 @@ Please read the [contribution guidelines](contributing.md) first.
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+
+
