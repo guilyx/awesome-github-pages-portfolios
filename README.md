@@ -2,7 +2,6 @@
 <div align="center">
 <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
 <a href="https://saythanks.io/to/erwin.lejeune15%40gmail.com?style=flat-square"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg?style=flat-square" alt="Thx Badge"/></a>
-  [![HitCount](http://hits.dwyl.com/guilyx/awesome-github-pages-portfolios.svg)](http://hits.dwyl.com/guilyx/awesome-github-pages-portfolios)
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/></a><br>
 
 
@@ -18,6 +17,8 @@
 <i>Loved the project? Please consider buying me a coffee to help it improve!</i>
 
 <a href="https://www.buymeacoffee.com/dq01aOE" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" height="27"></a>
+<br>
+[![HitCount](http://hits.dwyl.com/guilyx/awesome-github-pages-portfolios.svg)](http://hits.dwyl.com/guilyx/awesome-github-pages-portfolios)
 
 </div>
 
