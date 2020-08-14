@@ -46,6 +46,7 @@
 - [Erwin Lejeune (me)](https://github.com/guilyx/guilyx.github.io/) | [Demo](https://guilyx.github.io)
 - [Hashir Shoaeb](https://github.com/hashirshoaeb/home) | [Demo](https://hashirshoaeb.com/)
 - [Ashutosh Hathidara](https://github.com/ashutosh1919/masterPortfolio) | [Demo](https://ashutoshhathidara.com/#/home)
+- [Varad Bhogayata](https://github.com/varadbhogayata/varadbhogayata.github.io) | [Demo](https://varadbhogayata.github.io/)
 
 ## Tools
 
