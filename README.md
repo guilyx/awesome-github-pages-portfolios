@@ -14,11 +14,8 @@
 <a href="https://github.com/guilyx/awesome-github-pages-portfolios/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/guilyx/awesome-github-pages-portfolios?color=2b9348"></a>
 <a href="https://github.com/guilyx/awesome-github-pages-portfolios/blob/master/LICENSE"><img src="https://img.shields.io/github/license/guilyx/awesome-github-pages-portfolios?color=2b9348" alt="License Badge"/></a>
 
-<i>Loved the project? Please consider buying me a coffee to help it improve!</i>
-
 <a href="https://www.buymeacoffee.com/dq01aOE" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" height="27"></a>
 <br>
-[![HitCount](http://hits.dwyl.com/guilyx/awesome-github-pages-portfolios.svg)](http://hits.dwyl.com/guilyx/awesome-github-pages-portfolios)
 
 </div>
 
