@@ -37,7 +37,7 @@
 - [Evanca](https://github.com/evanca/quick-portfolio) | [Demo](https://yourawesomeusername.github.io/)
 - [Sara Gong](https://github.com/saragong/hello/) | [Demo](https://saragong.github.io/hello/)
 - [Liberxue](https://github.com/Liberxue/liberxue.github.io) | [Demo](https://liberxue.github.io)
-- [Proyecto26](https://github.com/proyecto26/proyecto26.github.io) | [Demo](https://github.com/proyecto26/proyecto26.github.io)
+- [Proyecto26](https://github.com/proyecto26/proyecto26.github.io) | [Demo](https://proyecto26.github.io)
 - [Kalaaji](https://github.com/kalaaji/kalaaji.github.io) | [Demo](https://kalaaji.github.io/)
 - [Aboualnaser](https://github.com/aboualnaser/aboualnaser.github.io/) | [Demo](https://aboualnaser.github.io/)
 - [Erwin Lejeune (me)](https://github.com/guilyx/guilyx.github.io/) | [Demo](https://guilyx.github.io)
