@@ -2,7 +2,7 @@
 
 Please ensure your pull request adheres to the following guidelines:
 
-- Suggested Github Pages Portfolios should be beautiful or stand out in some way.
+- Suggested Github Pages Portfolios are ALL welcome.
 - Make an individual pull request for each suggestion.
 - Start the Name with a capital.
 - Check your spelling and grammar.
