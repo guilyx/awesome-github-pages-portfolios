@@ -29,6 +29,7 @@
 
 ## Templates
 
+- [J Rosser](https://github.com/jrosseruk/jrosseruk.github.io) | [Demo](https://jrosseruk.github.io/)
 - [Ryan Fitzgerald](https://github.com/RyanFitzgerald/devportfolio) | [Demo](https://ryanfitzgerald.github.io/devportfolio)
 - [Saadpasta](https://github.com/saadpasta/developerFolio) | [Demo](https://developerfolio.js.org/)
 - [itsron717](https://github.com/itsron717/ParticleGround-Portfolio) | [Demo](https://landing-page--itsron717.repl.co/)
