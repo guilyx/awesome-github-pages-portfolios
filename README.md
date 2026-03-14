@@ -48,7 +48,6 @@
 | Varad Bhogayata | [varadbhogayata/varadbhogayata.github.io](https://github.com/varadbhogayata/varadbhogayata.github.io) | [varadbhogayata.github.io](https://varadbhogayata.github.io/) |
 | Pratik Kumar | [pr2tik1/pr2tik1.github.io](https://github.com/pr2tik1/pr2tik1.github.io) | [pr2tik1.github.io](https://pr2tik1.github.io) |
 | Jayant Goel | [JayantGoel001/JayantGoel001.github.io](https://github.com/JayantGoel001/JayantGoel001.github.io) | [JayantGoel001.github.io](https://JayantGoel001.github.io/) |
-
 | Sagar Gupta | [Sagargupta16/portfolio-react](https://github.com/Sagargupta16/portfolio-react) | [sagargupta.online/portfolio-react](https://sagargupta.online/portfolio-react/) |
 
 ## Tools
