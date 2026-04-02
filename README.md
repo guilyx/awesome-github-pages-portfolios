@@ -50,6 +50,7 @@
 | Jayant Goel | [JayantGoel001/JayantGoel001.github.io](https://github.com/JayantGoel001/JayantGoel001.github.io) | [JayantGoel001.github.io](https://JayantGoel001.github.io/) |
 | Sagar Gupta | [Sagargupta16/portfolio-react](https://github.com/Sagargupta16/portfolio-react) | [sagargupta.online/portfolio-react](https://sagargupta.online/portfolio-react/) |
 | Shengxiang Lin | [Shengxiang-Lin/Shengxiang-Lin.github.io](https://github.com/Shengxiang-Lin/Shengxiang-Lin.github.io) | [Shengxiang-Lin.github.io](https://Shengxiang-Lin.github.io) |
+| Diyor Khakimov | [diyoriko/portfolio-template](https://github.com/diyoriko/portfolio-template) | [diyor.design](https://diyor.design) |
 
 ## Tools
 
