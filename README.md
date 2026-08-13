@@ -29,6 +29,10 @@
 | Erwin Blog | [guilyx/hi.elejeune.me](https://github.com/guilyx/hi.elejeune.me) | [hi.elejeune.me](https://hi.elejeune.me) |
 | Unchained Labs | [unchained-labs/unchainlabs.xyz](https://github.com/unchained-labs/unchainlabs.xyz) | [unchainlabs.xyz](https://unchainlabs.xyz) |
 | Erwin Resume | [guilyx/resume](https://github.com/guilyx/resume) | [resume.elejeune.me](https://resume.elejeune.me) |
+| Erwin Portfolio v1 | [guilyx/v1](https://github.com/guilyx/v1) | [v1.elejeune.me](https://v1.elejeune.me) |
+| Erwin Portfolio v2 | [guilyx/v2](https://github.com/guilyx/v2) | [v2.elejeune.me](https://v2.elejeune.me) |
+| Erwin Portfolio v3 | [guilyx/v3](https://github.com/guilyx/v3) | [v3.elejeune.me](https://v3.elejeune.me) |
+| Erwin Portfolio v4 | [guilyx/v4](https://github.com/guilyx/v4) | [v4.elejeune.me](https://v4.elejeune.me) |
 | Gin Resume | [shoyogin/resume](https://github.com/shoyogin/resume) | [gin.unchainlabs.xyz](https://gin.unchainlabs.xyz) |
 | J Rosser | [jrosseruk/jrosseruk.github.io](https://github.com/jrosseruk/jrosseruk.github.io) | [jrosseruk.github.io](https://jrosseruk.github.io/) |
 | Ryan Fitzgerald | [RyanFitzgerald/devportfolio](https://github.com/RyanFitzgerald/devportfolio) | [ryanfitzgerald.github.io/devportfolio](https://ryanfitzgerald.github.io/devportfolio) |
