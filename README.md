@@ -57,6 +57,7 @@
 | Diyor Khakimov | [diyoriko/portfolio-template](https://github.com/diyoriko/portfolio-template) | [diyor.design](https://diyor.design) |
 | Lucy Batten | [lucyb0207/lucyb0207.github.io](https://github.com/lucyb0207/lucyb0207.github.io) | [lucyb0207.github.io](https://lucyb0207.github.io) |
 | Starry Museum | [Template source](https://github.com/skyjjgw/starry-museum-portfolio) | [Live demo](https://skyjjgw.github.io/starry-museum-portfolio/) |
+| Sergio Fernández | [GeiserX/cv](https://github.com/GeiserX/cv) | [cv.geiser.cloud](https://cv.geiser.cloud/) |
 
 ## Tools
 
