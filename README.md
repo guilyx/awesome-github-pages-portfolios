@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://guilyx.github.io/awesome-github-pages-portfolios/"><img src="https://img.shields.io/badge/gallery-live%20previews-7c5cff?logo=githubpages&logoColor=white" alt="Gallery with live previews" /></a>
-  <img src="https://img.shields.io/badge/portfolios-26-22d3ee" alt="26 portfolios" />
+  <img src="https://img.shields.io/badge/portfolios-27-22d3ee" alt="27 portfolios" />
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml"><img src="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml/badge.svg" alt="Deploy status" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/stargazers"><img src="https://img.shields.io/github/stars/guilyx/awesome-github-pages-portfolios" alt="Stars" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/blob/master/LICENSE"><img src="https://img.shields.io/github/license/guilyx/awesome-github-pages-portfolios?color=2b9348" alt="License" /></a>
@@ -33,7 +33,7 @@
 
 ## Templates
 
-26 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
+27 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
 
 | Name | Repository | Live Demo |
 | --- | --- | --- |
@@ -61,6 +61,7 @@
 | Sergio Fernández | [GeiserX/cv](https://github.com/GeiserX/cv) | [cv.geiser.cloud](https://cv.geiser.cloud/) |
 | Shengxiang Lin | [Shengxiang-Lin/Shengxiang-Lin.github.io](https://github.com/Shengxiang-Lin/Shengxiang-Lin.github.io) | [shengxiang-lin.github.io](https://Shengxiang-Lin.github.io) |
 | Starry Museum | [skyjjgw/starry-museum-portfolio](https://github.com/skyjjgw/starry-museum-portfolio) | [skyjjgw.github.io/starry-museum-portfolio](https://skyjjgw.github.io/starry-museum-portfolio/) |
+| Unchained Labs | [Unchained-Labs/unchained-labs.github.io](https://github.com/Unchained-Labs/unchained-labs.github.io) | [unchained-labs.github.io](https://unchained-labs.github.io/) |
 | Varad Bhogayata | [varadbhogayata/varadbhogayata.github.io](https://github.com/varadbhogayata/varadbhogayata.github.io) | [varadbhogayata.github.io](https://varadbhogayata.github.io/) |
 | Vinay Somawat | [vinaysomawat/vinaysomawat.github.io](https://github.com/vinaysomawat/vinaysomawat.github.io) | [vinaysomawat.github.io](https://vinaysomawat.github.io) |
 
