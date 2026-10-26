@@ -1,0 +1,133 @@
+# On every push to master: regenerate README.md from data/ and commit it, then
+# rebuild and redeploy the gallery to GitHub Pages. Also runs weekly to refresh
+# screenshots and GitHub stars.
+name: Deploy
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: "23 4 * * 1" # Mondays, 04:23 UTC
+  workflow_dispatch:
+    inputs:
+      force-previews:
+        description: Retake every screenshot
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  readme:
+    name: Update README
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }} # branch tip, so queued runs never push stale content
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run readme
+
+      - name: Commit README.md if it changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README.md is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: regenerate README from data [skip ci]" -- README.md
+          for attempt in 1 2 3; do
+            git push && exit 0
+            echo "Push rejected (attempt $attempt), rebasing on the latest commit…"
+            git pull --rebase
+          done
+          exit 1
+
+  build:
+    name: Build site
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # entries without "added" use the date their file was first committed
+          persist-credentials: false
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run validate
+
+      - id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Restore screenshots and metadata
+        uses: actions/cache@v6
+        with:
+          path: .cache
+          key: gallery-cache-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: gallery-cache-
+
+      - name: Fetch GitHub stars and languages
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run metadata
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Capture screenshots
+        continue-on-error: true # a failure here only means placeholders instead of screenshots
+        env:
+          FORCE: ${{ inputs.force-previews }}
+        run: |
+          if [ "$FORCE" = "true" ]; then
+            npm run previews -- --force
+          else
+            npm run previews
+          fi
+
+      - name: Build site
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+        run: npm run build:site
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Erwin Portfolio v3
+repo: guilyx/v3
+demo: https://v3.elejeune.me
+added: 2026-08-13

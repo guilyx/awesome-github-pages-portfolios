@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Proyecto26
+repo: proyecto26/proyecto26.github.io
+demo: https://proyecto26.github.io
+added: 2020-08-11

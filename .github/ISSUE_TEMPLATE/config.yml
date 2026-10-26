@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ➕ Add a portfolio
+    url: https://github.com/guilyx/awesome-github-pages-portfolios/blob/master/CONTRIBUTING.md
+    about: Portfolios are added with a pull request that creates one small YAML file. The guide takes two minutes.
+  - name: 🖼️ Browse the gallery
+    url: https://guilyx.github.io/awesome-github-pages-portfolios/
+    about: Screenshots, search and filters for every portfolio in the list.

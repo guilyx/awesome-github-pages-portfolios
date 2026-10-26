@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/guilyx/awesome-github-pages-portfolios/blob/master/schema/portfolio.schema.json",
+  "title": "Portfolio entry",
+  "description": "One portfolio in the Awesome GitHub Pages Portfolios list. One file per portfolio, stored in data/portfolios/.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "repo",
+    "demo"
+  ],
+  "properties": {
+    "name": {
+      "description": "Display name: your name, your handle or the template's name.",
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 50,
+      "pattern": "^[^\\s<>\\[\\]|`]([^<>\\[\\]|`\\n]*[^\\s<>\\[\\]|`])?$"
+    },
+    "repo": {
+      "description": "GitHub repository that holds the source, as owner/name.",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})/[A-Za-z0-9._-]{1,100}$",
+      "examples": [
+        "octocat/octocat.github.io"
+      ]
+    },
+    "demo": {
+      "description": "Public HTTPS URL of the live site.",
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://[^\\s]+$",
+      "maxLength": 200,
+      "examples": [
+        "https://octocat.github.io/"
+      ]
+    },
+    "description": {
+      "description": "Optional one-line pitch shown on the gallery. Falls back to the GitHub repository description.",
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 160,
+      "pattern": "^[^\\s<>|`]([^<>|`\\n]*[^\\s<>|`])?$"
+    },
+    "tags": {
+      "description": "Optional lowercase keywords used for filtering on the gallery (e.g. react, minimal, dark, resume, blog).",
+      "type": "array",
+      "maxItems": 5,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "maxLength": 24
+      }
+    },
+    "added": {
+      "description": "Optional. Date the entry was added, as YYYY-MM-DD. Defaults to the date this file was first committed.",
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

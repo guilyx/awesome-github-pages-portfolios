@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Diyor Khakimov
+repo: diyoriko/portfolio-template
+demo: https://diyor.design
+added: 2026-04-01

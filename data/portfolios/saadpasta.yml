@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Saadpasta
+repo: saadpasta/developerFolio
+demo: https://developerfolio.js.org/
+added: 2020-08-11

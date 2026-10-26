@@ -1,0 +1,62 @@
+# Weekly dead-link check of every link in the list. Opens (or updates) a single
+# "Dead links report" issue, and closes it once everything works again.
+name: Check links
+
+on:
+  schedule:
+    - cron: "41 5 * * 1" # Mondays, 05:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    name: Check links
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Check links in README.md
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 403 and 429 are accepted: many hosts block bots or rate-limit them.
+          args: >-
+            --no-progress
+            --max-retries 3
+            --timeout 30
+            --accept "100..=103,200..=299,403,429"
+            --exclude "github\.com/.+/new/"
+            README.md
+          fail: false
+
+      - name: Find the open report issue
+        id: issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          number=$(gh issue list --repo "$GITHUB_REPOSITORY" --label dead-links --state open --limit 1 --json number --jq '.[0].number // empty')
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the report issue
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: Dead links report
+          content-filepath: ./lychee/out.md
+          labels: dead-links, automated
+          issue-number: ${{ steps.issue.outputs.number }}
+
+      - name: Close the report issue once all links work
+        if: steps.lychee.outputs.exit_code == 0 && steps.issue.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ steps.issue.outputs.number }}
+        run: gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY" --comment "All links work again. 🎉"

@@ -1,0 +1,29 @@
+name: 🔧 Report a problem with an entry
+description: A site is down, a link is wrong, a screenshot looks broken…
+labels: [bug]
+body:
+  - type: input
+    id: portfolio
+    attributes:
+      label: Which portfolio?
+      description: Its name, or the link to its file in data/portfolios/.
+      placeholder: Jane Doe
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong?
+      options:
+        - The live site is down or moved
+        - The repository is gone or private
+        - The screenshot is wrong or broken
+        - The description or tags are wrong
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: The new URL if it moved, or anything that helps us fix it. Owners can also fix their own entry with a pull request.

@@ -1,0 +1,30 @@
+// Colours from GitHub Linguist for the languages portfolios are usually written in.
+const COLORS = {
+  astro: '#ff5a03',
+  css: '#663399',
+  dart: '#00b4ab',
+  ejs: '#a91e50',
+  go: '#00add8',
+  handlebars: '#f7931e',
+  html: '#e34c26',
+  java: '#b07219',
+  javascript: '#f1e05a',
+  'jupyter notebook': '#da5b0b',
+  less: '#1d365d',
+  liquid: '#67b8de',
+  mdx: '#fcb32c',
+  nunjucks: '#3d8137',
+  php: '#4f5d95',
+  pug: '#a86454',
+  python: '#3572a5',
+  ruby: '#701516',
+  rust: '#dea584',
+  scss: '#c6538c',
+  shell: '#89e051',
+  svelte: '#ff3e00',
+  tex: '#3d6117',
+  typescript: '#3178c6',
+  vue: '#41b883',
+};
+
+export const languageColor = (language) => COLORS[language?.toLowerCase()] ?? '#8b949e';

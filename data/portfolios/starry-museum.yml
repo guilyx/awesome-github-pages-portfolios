@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Starry Museum
+repo: skyjjgw/starry-museum-portfolio
+demo: https://skyjjgw.github.io/starry-museum-portfolio/
+added: 2026-09-28

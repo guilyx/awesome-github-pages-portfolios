@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Erwin Blog
+repo: guilyx/hi.elejeune.me
+demo: https://hi.elejeune.me
+added: 2026-03-02

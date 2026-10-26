@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/guilyx/awesome-github-pages-portfolios/blob/master/schema/link-list.schema.json",
+  "title": "Link list",
+  "description": "A list of tools or articles (data/tools.yml, data/articles.yml).",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["name", "url"],
+    "properties": {
+      "name": {
+        "description": "Title of the tool or article.",
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 120
+      },
+      "url": {
+        "description": "HTTPS link.",
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://[^\\s]+$"
+      },
+      "author": {
+        "description": "Author or organisation.",
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 60
+      },
+      "description": {
+        "description": "Optional one-line description.",
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 160
+      }
+    }
+  }
+}

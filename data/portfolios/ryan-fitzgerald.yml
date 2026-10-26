@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Ryan Fitzgerald
+repo: RyanFitzgerald/devportfolio
+demo: https://ryanfitzgerald.github.io/devportfolio
+added: 2020-08-11

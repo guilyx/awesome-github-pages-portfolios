@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Aboualnaser
+repo: aboualnaser/aboualnaser.github.io
+demo: https://aboualnaser.github.io/
+added: 2020-08-11

@@ -1,0 +1,11 @@
+name: 💡 Suggest an improvement
+description: Ideas for the gallery, the list, the automation or the docs.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      description: Describe the problem it solves and, if you have one, how you'd do it.
+    validations:
+      required: true

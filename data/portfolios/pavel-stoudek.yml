@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Pavel Stoudek
+repo: unchained-labs/pstidotcom
+demo: https://pavelstoudek.xyz/
+added: 2026-03-02
