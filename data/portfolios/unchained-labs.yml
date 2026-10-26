@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Unchained Labs
+repo: Unchained-Labs/unchained-labs.github.io
+demo: https://unchained-labs.github.io/
