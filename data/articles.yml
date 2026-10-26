@@ -1,8 +1,5 @@
 # yaml-language-server: $schema=../schema/link-list.schema.json
 # Tutorials and articles about publishing a portfolio on GitHub Pages.
-- name: Set Up Your Portfolio Website in Less Than 10 Minutes with GitHub Pages
-  url: https://blog.usejournal.com/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd
-  author: Ivanna Kacewica
 - name: 8 Steps to Publish your Portfolio on GitHub
   url: https://medium.com/tunapanda-institute/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84
   author: Brian Mwevi
