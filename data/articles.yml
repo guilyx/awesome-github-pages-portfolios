@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../schema/link-list.schema.json
+# Tutorials and articles about publishing a portfolio on GitHub Pages.
+- name: 8 Steps to Publish your Portfolio on GitHub
+  url: https://medium.com/tunapanda-institute/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84
+  author: Brian Mwevi

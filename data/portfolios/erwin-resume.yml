@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Erwin Resume
+repo: guilyx/resume
+demo: https://resume.elejeune.me
+added: 2026-03-02

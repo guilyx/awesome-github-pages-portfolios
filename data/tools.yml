@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../schema/link-list.schema.json
+# Tools and resources that help you build a portfolio.
+- name: Information to build your portfolio
+  url: https://github.com/simplonco/portfolio
+  author: Simplonco

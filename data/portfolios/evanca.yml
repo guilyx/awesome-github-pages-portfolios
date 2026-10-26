@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Evanca
+repo: evanca/quick-portfolio
+demo: https://yourawesomeusername.github.io/
+added: 2020-08-11

@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Sergio Fernández
+repo: GeiserX/cv
+demo: https://cv.geiser.cloud/
+added: 2026-10-20

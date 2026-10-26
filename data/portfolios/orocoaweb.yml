@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Orocoaweb
+repo: orocoa/orocoa_web
+demo: https://webdemo.kai-nex.com/
+added: 2026-10-26

@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: J Rosser
+repo: jrosseruk/jrosseruk.github.io
+demo: https://jrosseruk.github.io/
+added: 2025-09-03

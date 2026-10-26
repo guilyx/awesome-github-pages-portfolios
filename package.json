@@ -1,0 +1,33 @@
+{
+  "name": "awesome-github-pages-portfolios",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A curated list and gallery of portfolio templates and personal sites hosted with GitHub Pages.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilyx/awesome-github-pages-portfolios.git"
+  },
+  "license": "CC0-1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "new": "node scripts/new-entry.mjs",
+    "validate": "node scripts/validate.mjs",
+    "readme": "node scripts/build-readme.mjs",
+    "metadata": "node scripts/fetch-metadata.mjs",
+    "previews": "node scripts/capture-previews.mjs",
+    "build": "node scripts/build-readme.mjs && node scripts/build-site.mjs",
+    "build:site": "node scripts/build-site.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build-site.mjs && node scripts/serve.mjs",
+    "test": "node --test \"tests/*.test.mjs\""
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "playwright": "^1.64.1",
+    "yaml": "^2.9.1"
+  }
+}

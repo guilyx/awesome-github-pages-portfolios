@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.cache/
+lychee/
+.DS_Store
+*.log

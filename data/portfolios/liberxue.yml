@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Liberxue
+repo: Liberxue/liberxue.github.io
+demo: https://liberxue.github.io
+added: 2020-08-11

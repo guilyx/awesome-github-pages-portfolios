@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Mark MacNeil
+repo: mmacneil/devfolio
+demo: https://mmacneil.github.io/devfolio/
+added: 2020-08-11
