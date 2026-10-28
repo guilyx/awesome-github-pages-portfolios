@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Flight Log
+repo: guilyx/v5
+branch: feat/compassionate-lovelace-4zgyf1-p03-flight-log
+demo: https://v5-git-feat-compassionate-lovelace-4zgyf-8ba98a-hunter-a7fcabb9.vercel.app/
+description: Career as a flight log from 2014 to now, tracing the route place by place.

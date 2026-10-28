@@ -13,7 +13,7 @@ import { ROOT, project } from './lib/project.mjs';
 import { LINK_LISTS, loadData, reportProblems } from './lib/data.mjs';
 import { renderReadme } from './lib/readme.mjs';
 import { mapLimit } from './lib/concurrency.mjs';
-import { escapeTableCell } from './lib/format.mjs';
+import { escapeTableCell, githubUrl } from './lib/format.mjs';
 
 const { values: args } = parseArgs({
   options: {
@@ -53,16 +53,19 @@ async function checkSite(url) {
   }
 }
 
-async function checkRepo(repo) {
+const githubApi = (path) =>
+  fetch(`${GITHUB_API}${path}`, {
+    headers: {
+      accept: 'application/vnd.github+json',
+      'user-agent': USER_AGENT,
+      ...(token && { authorization: `Bearer ${token}` }),
+    },
+    signal: AbortSignal.timeout(20_000),
+  });
+
+async function checkRepo(repo, branch) {
   try {
-    const res = await fetch(`${GITHUB_API}/repos/${repo}`, {
-      headers: {
-        accept: 'application/vnd.github+json',
-        'user-agent': USER_AGENT,
-        ...(token && { authorization: `Bearer ${token}` }),
-      },
-      signal: AbortSignal.timeout(20_000),
-    });
+    const res = await githubApi(`/repos/${repo}`);
     if (res.status === 404) return { level: 'error', message: `repository ${repo} was not found; is it public?` };
     if (!res.ok) return { level: 'warning', message: `could not check ${repo} (GitHub API answered HTTP ${res.status})` };
     const info = await res.json();
@@ -70,6 +73,10 @@ async function checkRepo(repo) {
       return { level: 'warning', message: `repository ${repo} has moved to ${info.full_name}; please update "repo"` };
     }
     if (info.archived) return { level: 'warning', message: `repository ${repo} is archived` };
+    if (branch) {
+      const ref = await githubApi(`/repos/${repo}/branches/${encodeURIComponent(branch)}`);
+      if (ref.status === 404) return { level: 'error', message: `branch "${branch}" was not found in ${repo}` };
+    }
     return null;
   } catch (error) {
     return { level: 'warning', message: `could not check ${repo} (${error.cause?.code ?? error.name})` };
@@ -107,11 +114,11 @@ if (args.online) {
 
   console.log(`Checking ${portfolios.length} portfolio(s) and ${links.length} link(s) online…`);
   await mapLimit(portfolios, 6, async (p) => {
-    const [site, repo] = await Promise.all([checkSite(p.demo), checkRepo(p.repo)]);
+    const [site, repo] = await Promise.all([checkSite(p.demo), checkRepo(p.repo, p.branch)]);
     record(site, { file: p.file, line: p.lines.demo });
     record(repo, { file: p.file, line: p.lines.repo });
     const status = [site, repo].some((r) => r?.level === 'error') ? '❌' : site || repo ? '⚠️' : '✅';
-    report.push(`| ${status} | ${escapeTableCell(p.name)} | [site](${p.demo}) · [repo](https://github.com/${p.repo}) |`);
+    report.push(`| ${status} | ${escapeTableCell(p.name)} | [site](${p.demo}) · [source](${githubUrl(p.repo, p.branch)}) |`);
   });
   await mapLimit(links, 6, async (link) => record(await checkSite(link.url), { file: link.file }));
 }

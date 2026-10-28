@@ -26,6 +26,17 @@
         "octocat/octocat.github.io"
       ]
     },
+    "branch": {
+      "description": "Optional. Branch that holds the source when it isn't the default branch. Lets several designs from one repository be listed separately.",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255,
+      "pattern": "^(?!/|.*(?:\\.\\.|//|@\\{|\\.lock$|/$|\\.$))[^\\s~^:?*\\[\\\\]+$",
+      "examples": [
+        "gh-pages",
+        "feat/dark-theme"
+      ]
+    },
     "demo": {
       "description": "Public HTTPS URL of the live site.",
       "type": "string",

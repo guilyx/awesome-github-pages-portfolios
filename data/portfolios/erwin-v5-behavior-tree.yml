@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Behavior Tree
+repo: guilyx/v5
+branch: feat/compassionate-lovelace-4zgyf1-p04-behavior-tree
+demo: https://v5-git-feat-compassionate-lovelace-4zgyf-3236f5-hunter-a7fcabb9.vercel.app/
+description: A robotics career drawn as a behavior tree, complete with a blackboard.

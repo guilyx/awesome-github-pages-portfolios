@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: The Desk
+repo: guilyx/v5
+branch: feat/compassionate-lovelace-4zgyf1-p06-the-desk
+demo: https://v5-git-feat-compassionate-lovelace-4zgyf-7e6e64-hunter-a7fcabb9.vercel.app/
+description: Eight years in robotics, laid out on a desk.

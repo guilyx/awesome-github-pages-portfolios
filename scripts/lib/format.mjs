@@ -30,7 +30,11 @@ export function normalizeUrl(url) {
   return `${host.replace(/^www\./, '')}${pathname.replace(/\/+$/, '')}${search}`.toLowerCase();
 }
 
-export const githubUrl = (repo) => `https://github.com/${repo}`;
+/** Link to a repository, or to one of its branches. */
+export function githubUrl(repo, branch) {
+  if (!branch) return `https://github.com/${repo}`;
+  return `https://github.com/${repo}/tree/${branch.split('/').map(encodeURIComponent).join('/')}`;
+}
 
 /** Case- and accent-insensitive alphabetical order, with a stable tie-break. */
 export function byName(a, b) {

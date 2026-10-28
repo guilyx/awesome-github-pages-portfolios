@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Tiny City
+repo: guilyx/v5
+branch: feat/compassionate-lovelace-4zgyf1-p02-tiny-city
+demo: https://v5-git-feat-compassionate-lovelace-4zgyf-2bbda0-hunter-a7fcabb9.vercel.app/
+description: Eight years in robotics and five cities, built as a tiny city on one small table.

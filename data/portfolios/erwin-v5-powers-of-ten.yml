@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Powers of Ten
+repo: guilyx/v5
+branch: feat/compassionate-lovelace-4zgyf1-p01-powers-of-ten
+demo: https://v5-git-feat-compassionate-lovelace-4zgyf-1b4ba0-hunter-a7fcabb9.vercel.app/
+description: Career told as a Powers of Ten zoom, starting from the whole Earth at 10^7 metres.

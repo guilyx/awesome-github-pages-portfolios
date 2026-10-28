@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: The Maze
+repo: guilyx/v5
+branch: feat/compassionate-lovelace-4zgyf1-p05-the-maze
+demo: https://v5-git-feat-compassionate-lovelace-4zgyf-f54e3c-hunter-a7fcabb9.vercel.app/
+description: Drive a robot through a maze, room by room, to explore the career. Click, tap or use WASD.
