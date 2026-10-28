@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Globe Itinerary
+repo: guilyx/v5
+branch: feat/compassionate-lovelace-4zgyf1-p09-globe-itinerary
+demo: https://v5-git-feat-compassionate-lovelace-4zgyf-617971-hunter-a7fcabb9.vercel.app/
+description: A career as an atlas in ten stops around the globe.

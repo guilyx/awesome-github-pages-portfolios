@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Robot Arm
+repo: guilyx/v5
+branch: feat/compassionate-lovelace-4zgyf1-p08-robot-arm
+demo: https://v5-git-feat-compassionate-lovelace-4zgyf-812a98-hunter-a7fcabb9.vercel.app/
+description: Eight years in robotics, assembled one piece at a time.

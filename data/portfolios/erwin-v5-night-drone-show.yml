@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Night Drone Show
+repo: guilyx/v5
+branch: feat/compassionate-lovelace-4zgyf1-p10-drone-show
+demo: https://v5-git-feat-compassionate-lovelace-4zgyf-2d9ae2-hunter-a7fcabb9.vercel.app/
+description: A career told by a night drone show over the water in Abu Dhabi.

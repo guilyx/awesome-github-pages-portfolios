@@ -15,8 +15,8 @@ const NOTICE = `<!--
 
 function portfolioTable(portfolios) {
   const rows = portfolios.map(
-    ({ name, repo, demo }) =>
-      `| ${escapeTableCell(name)} | [${escapeLinkText(repo)}](${githubUrl(repo)}) | [${escapeLinkText(displayUrl(demo))}](${demo}) |`,
+    ({ name, repo, branch, demo }) =>
+      `| ${escapeTableCell(name)} | [${escapeLinkText(repo)}](${githubUrl(repo, branch)}) | [${escapeLinkText(displayUrl(demo))}](${demo}) |`,
   );
   return ['| Name | Repository | Live Demo |', '| --- | --- | --- |', ...rows].join('\n');
 }

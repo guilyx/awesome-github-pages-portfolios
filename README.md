@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://guilyx.github.io/awesome-github-pages-portfolios/"><img src="https://img.shields.io/badge/gallery-live%20previews-7c5cff?logo=githubpages&logoColor=white" alt="Gallery with live previews" /></a>
-  <img src="https://img.shields.io/badge/portfolios-27-22d3ee" alt="27 portfolios" />
+  <img src="https://img.shields.io/badge/portfolios-37-22d3ee" alt="37 portfolios" />
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml"><img src="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml/badge.svg" alt="Deploy status" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/stargazers"><img src="https://img.shields.io/github/stars/guilyx/awesome-github-pages-portfolios" alt="Stars" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/blob/master/LICENSE"><img src="https://img.shields.io/github/license/guilyx/awesome-github-pages-portfolios?color=2b9348" alt="License" /></a>
@@ -33,12 +33,13 @@
 
 ## Templates
 
-27 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
+37 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
 
 | Name | Repository | Live Demo |
 | --- | --- | --- |
 | Aboualnaser | [aboualnaser/aboualnaser.github.io](https://github.com/aboualnaser/aboualnaser.github.io) | [aboualnaser.github.io](https://aboualnaser.github.io/) |
 | Ashutosh Hathidara | [ashutosh1919/masterPortfolio](https://github.com/ashutosh1919/masterPortfolio) | [ashutoshhathidara.com](https://ashutoshhathidara.com/#/home) |
+| Behavior Tree | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p04-behavior-tree) | [v5-git-feat-compassionate-lovelace-4zgyf-3236f5-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-3236f5-hunter-a7fcabb9.vercel.app/) |
 | Diyor Khakimov | [diyoriko/portfolio-template](https://github.com/diyoriko/portfolio-template) | [diyor.design](https://diyor.design) |
 | Erwin Lejeune (me) | [guilyx/guilyx.github.io](https://github.com/guilyx/guilyx.github.io) | [guilyx.github.io](https://guilyx.github.io) |
 | Erwin Portfolio v1 | [guilyx/v1](https://github.com/guilyx/v1) | [v1.elejeune.me](https://v1.elejeune.me) |
@@ -47,13 +48,18 @@
 | Erwin Portfolio v4 | [guilyx/v4](https://github.com/guilyx/v4) | [v4.elejeune.me](https://v4.elejeune.me) |
 | Erwin Resume | [guilyx/resume](https://github.com/guilyx/resume) | [resume.elejeune.me](https://resume.elejeune.me) |
 | Evanca | [evanca/quick-portfolio](https://github.com/evanca/quick-portfolio) | [yourawesomeusername.github.io](https://yourawesomeusername.github.io/) |
+| Flight Log | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p03-flight-log) | [v5-git-feat-compassionate-lovelace-4zgyf-8ba98a-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-8ba98a-hunter-a7fcabb9.vercel.app/) |
+| Globe Itinerary | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p09-globe-itinerary) | [v5-git-feat-compassionate-lovelace-4zgyf-617971-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-617971-hunter-a7fcabb9.vercel.app/) |
 | Hashir Shoaeb | [hashirshoaeb/home](https://github.com/hashirshoaeb/home) | [hashirshoaeb.com](https://hashirshoaeb.com/) |
 | J Rosser | [jrosseruk/jrosseruk.github.io](https://github.com/jrosseruk/jrosseruk.github.io) | [jrosseruk.github.io](https://jrosseruk.github.io/) |
 | Jayant Goel | [JayantGoel001/JayantGoel001.github.io](https://github.com/JayantGoel001/JayantGoel001.github.io) | [jayantgoel001.github.io](https://JayantGoel001.github.io/) |
 | Liberxue | [Liberxue/liberxue.github.io](https://github.com/Liberxue/liberxue.github.io) | [liberxue.github.io](https://liberxue.github.io) |
 | Mark MacNeil | [mmacneil/devfolio](https://github.com/mmacneil/devfolio) | [mmacneil.github.io/devfolio](https://mmacneil.github.io/devfolio/) |
+| Night Drone Show | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p10-drone-show) | [v5-git-feat-compassionate-lovelace-4zgyf-2d9ae2-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-2d9ae2-hunter-a7fcabb9.vercel.app/) |
 | Orocoaweb | [orocoa/orocoa_web](https://github.com/orocoa/orocoa_web) | [webdemo.kai-nex.com](https://webdemo.kai-nex.com/) |
+| Powers of Ten | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p01-powers-of-ten) | [v5-git-feat-compassionate-lovelace-4zgyf-1b4ba0-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-1b4ba0-hunter-a7fcabb9.vercel.app/) |
 | Proyecto26 | [proyecto26/proyecto26.github.io](https://github.com/proyecto26/proyecto26.github.io) | [proyecto26.github.io](https://proyecto26.github.io) |
+| Robot Arm | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p08-robot-arm) | [v5-git-feat-compassionate-lovelace-4zgyf-812a98-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-812a98-hunter-a7fcabb9.vercel.app/) |
 | Ryan Fitzgerald | [RyanFitzgerald/devportfolio](https://github.com/RyanFitzgerald/devportfolio) | [ryanfitzgerald.github.io/devportfolio](https://ryanfitzgerald.github.io/devportfolio) |
 | Saadpasta | [saadpasta/developerFolio](https://github.com/saadpasta/developerFolio) | [developerfolio.js.org](https://developerfolio.js.org/) |
 | Sagar Gupta | [Sagargupta16/portfolio-react](https://github.com/Sagargupta16/portfolio-react) | [sagargupta.online/portfolio-react](https://sagargupta.online/portfolio-react/) |
@@ -61,6 +67,10 @@
 | Sergio Fernández | [GeiserX/cv](https://github.com/GeiserX/cv) | [cv.geiser.cloud](https://cv.geiser.cloud/) |
 | Shengxiang Lin | [Shengxiang-Lin/Shengxiang-Lin.github.io](https://github.com/Shengxiang-Lin/Shengxiang-Lin.github.io) | [shengxiang-lin.github.io](https://Shengxiang-Lin.github.io) |
 | Starry Museum | [skyjjgw/starry-museum-portfolio](https://github.com/skyjjgw/starry-museum-portfolio) | [skyjjgw.github.io/starry-museum-portfolio](https://skyjjgw.github.io/starry-museum-portfolio/) |
+| The Desk | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p06-the-desk) | [v5-git-feat-compassionate-lovelace-4zgyf-7e6e64-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-7e6e64-hunter-a7fcabb9.vercel.app/) |
+| The Film | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p07-the-film) | [v5-git-feat-compassionate-lovelace-4zgyf-eb93d5-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-eb93d5-hunter-a7fcabb9.vercel.app/) |
+| The Maze | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p05-the-maze) | [v5-git-feat-compassionate-lovelace-4zgyf-f54e3c-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-f54e3c-hunter-a7fcabb9.vercel.app/) |
+| Tiny City | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p02-tiny-city) | [v5-git-feat-compassionate-lovelace-4zgyf-2bbda0-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-2bbda0-hunter-a7fcabb9.vercel.app/) |
 | Unchained Labs | [Unchained-Labs/unchained-labs.github.io](https://github.com/Unchained-Labs/unchained-labs.github.io) | [unchained-labs.github.io](https://unchained-labs.github.io/) |
 | Varad Bhogayata | [varadbhogayata/varadbhogayata.github.io](https://github.com/varadbhogayata/varadbhogayata.github.io) | [varadbhogayata.github.io](https://varadbhogayata.github.io/) |
 | Vinay Somawat | [vinaysomawat/vinaysomawat.github.io](https://github.com/vinaysomawat/vinaysomawat.github.io) | [vinaysomawat.github.io](https://vinaysomawat.github.io) |

@@ -139,3 +139,25 @@ test('sorts portfolios alphabetically, ignoring case and accents', async () => {
   });
   assert.deepEqual(result.portfolios.map((p) => p.name), ['alice', 'émile', 'Zed']);
 });
+
+test('allows several entries from one repository when their branches differ', async () => {
+  const result = await load({
+    'a.yml': 'name: Design A\nrepo: jane/site\nbranch: design-a\ndemo: https://a.dev\n',
+    'b.yml': 'name: Design B\nrepo: jane/site\nbranch: feat/design-b\ndemo: https://b.dev\n',
+    'c.yml': 'name: Main\nrepo: jane/site\ndemo: https://c.dev\n',
+  });
+  assert.deepEqual(result.problems, []);
+  assert.equal(result.portfolios.length, 3);
+});
+
+test('rejects the same repository and branch twice, and invalid branch names', async () => {
+  const result = await load({
+    'a.yml': 'name: Design A\nrepo: jane/site\nbranch: design-a\ndemo: https://a.dev\n',
+    'b.yml': 'name: Design B\nrepo: JANE/site\nbranch: design-a\ndemo: https://b.dev\n',
+    'c.yml': 'name: Design C\nrepo: jane/site\nbranch: bad branch\ndemo: https://c.dev\n',
+  });
+  assert.deepEqual(messages(result), [
+    'data/portfolios/c.yml:3 "branch" must be a valid git branch name, e.g. gh-pages or feat/dark-theme',
+    'data/portfolios/b.yml:2 "repo" is already listed in data/portfolios/a.yml',
+  ]);
+});

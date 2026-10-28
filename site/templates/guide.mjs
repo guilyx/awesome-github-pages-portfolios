@@ -133,6 +133,7 @@ git push -u origin add-jane-doe</code></pre>
               <tr><td><code>name</code></td><td><span class="pill pill-req">required</span></td><td>Your name, your handle or the template's name.</td></tr>
               <tr><td><code>repo</code></td><td><span class="pill pill-req">required</span></td><td>The public GitHub repository as <code>owner/name</code>, not a URL.</td></tr>
               <tr><td><code>demo</code></td><td><span class="pill pill-req">required</span></td><td>The live site's full <code>https://</code> URL.</td></tr>
+              <tr><td><code>branch</code></td><td><span class="pill">optional</span></td><td>The branch holding the source, if it isn't the default one. Lets several designs from one repository be listed separately.</td></tr>
               <tr><td><code>description</code></td><td><span class="pill">optional</span></td><td>One line, 10-160 characters. Defaults to the repository description.</td></tr>
               <tr><td><code>tags</code></td><td><span class="pill">optional</span></td><td>Up to 5 lowercase keywords used by the gallery filters, e.g. <code>[react, minimal, dark]</code>.</td></tr>
               <tr><td><code>added</code></td><td><span class="pill">optional</span></td><td><code>YYYY-MM-DD</code>. Defaults to the date your file was first committed.</td></tr>

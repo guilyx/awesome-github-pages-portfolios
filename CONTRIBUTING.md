@@ -60,6 +60,7 @@ Then open a pull request from your fork.
 | `name` | **required** | Your name, your handle or the template's name. 2-50 characters. |
 | `repo` | **required** | The public GitHub repository, written `owner/name` (not a URL). |
 | `demo` | **required** | The full `https://` URL of the live site. |
+| `branch` | optional | The branch that holds the source, if it isn't the default one. Lets several designs from one repository be listed separately. |
 | `description` | optional | One line, 10-160 characters. Defaults to the repository's GitHub description. |
 | `tags` | optional | Up to 5 lowercase keywords for the gallery filters, e.g. `[react, minimal, dark]`. |
 | `added` | optional | `YYYY-MM-DD`. Defaults to the date your file was first committed. |

@@ -23,6 +23,7 @@ const validateLinkList = ajv.compile(readJson('schema/link-list.schema.json'));
 const HINTS = {
   name: 'must be 2-50 characters on one line, without < > [ ] | or ` characters',
   repo: 'must be the GitHub repository written as "owner/name", e.g. octocat/octocat.github.io (not a full URL)',
+  branch: 'must be a valid git branch name, e.g. gh-pages or feat/dark-theme',
   demo: 'must be the full https:// URL of the live site, e.g. https://octocat.github.io/',
   description: 'must be one line of 10-160 characters, without < > | or ` characters',
   tags: 'must be a list of at most 5 unique lowercase-kebab-case words, e.g. [react, minimal, dark-mode]',
@@ -189,11 +190,11 @@ export async function loadPortfolios({ root = ROOT } = {}) {
     problems.push(...fileProblems);
   }
 
-  // Cross-file checks: the same repository or site must not be listed twice.
+  // Cross-file checks: the same source (repository + branch) or site must not be listed twice.
   const seen = { repo: new Map(), demo: new Map() };
   for (const entry of entries) {
     for (const [field, key] of [
-      ['repo', entry.repo.toLowerCase()],
+      ['repo', `${entry.repo.toLowerCase()}#${entry.branch ?? ''}`],
       ['demo', normalizeUrl(entry.demo)],
     ]) {
       const other = seen[field].get(key);

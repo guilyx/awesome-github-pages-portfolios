@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: The Film
+repo: guilyx/v5
+branch: feat/compassionate-lovelace-4zgyf1-p07-the-film
+demo: https://v5-git-feat-compassionate-lovelace-4zgyf-eb93d5-hunter-a7fcabb9.vercel.app/
+description: A robotics career as a short film in eight acts, from Nantes in 2014 onward.
