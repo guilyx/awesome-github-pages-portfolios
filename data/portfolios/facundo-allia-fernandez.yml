@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Facundo Allia Fernandez
+repo: facundoallia/facundoallia.github.io
+demo: https://facundoallia.github.io/
+description: Portfolio of a data scientist and AI engineer working in quantitative finance, with live demos.
+tags: [data-science, ai, finance, threejs, bilingual]
