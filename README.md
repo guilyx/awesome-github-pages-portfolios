@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://guilyx.github.io/awesome-github-pages-portfolios/"><img src="https://img.shields.io/badge/gallery-live%20previews-7c5cff?logo=githubpages&logoColor=white" alt="Gallery with live previews" /></a>
-  <img src="https://img.shields.io/badge/portfolios-37-22d3ee" alt="37 portfolios" />
+  <img src="https://img.shields.io/badge/portfolios-38-22d3ee" alt="38 portfolios" />
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml"><img src="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml/badge.svg" alt="Deploy status" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/stargazers"><img src="https://img.shields.io/github/stars/guilyx/awesome-github-pages-portfolios" alt="Stars" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/blob/master/LICENSE"><img src="https://img.shields.io/github/license/guilyx/awesome-github-pages-portfolios?color=2b9348" alt="License" /></a>
@@ -33,7 +33,7 @@
 
 ## Templates
 
-37 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
+38 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
 
 | Name | Repository | Live Demo |
 | --- | --- | --- |
@@ -48,6 +48,7 @@
 | Erwin Portfolio v4 | [guilyx/v4](https://github.com/guilyx/v4) | [v4.elejeune.me](https://v4.elejeune.me) |
 | Erwin Resume | [guilyx/resume](https://github.com/guilyx/resume) | [resume.elejeune.me](https://resume.elejeune.me) |
 | Evanca | [evanca/quick-portfolio](https://github.com/evanca/quick-portfolio) | [yourawesomeusername.github.io](https://yourawesomeusername.github.io/) |
+| Facundo Allia Fernandez | [facundoallia/facundoallia.github.io](https://github.com/facundoallia/facundoallia.github.io) | [facundoallia.github.io](https://facundoallia.github.io/) |
 | Flight Log | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p03-flight-log) | [v5-git-feat-compassionate-lovelace-4zgyf-8ba98a-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-8ba98a-hunter-a7fcabb9.vercel.app/) |
 | Globe Itinerary | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p09-globe-itinerary) | [v5-git-feat-compassionate-lovelace-4zgyf-617971-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-617971-hunter-a7fcabb9.vercel.app/) |
 | Hashir Shoaeb | [hashirshoaeb/home](https://github.com/hashirshoaeb/home) | [hashirshoaeb.com](https://hashirshoaeb.com/) |
