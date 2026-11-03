@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Yorben Vander Sleyen
+repo: Yvsleyen00941/Yvsleyen00941.github.io
+demo: https://yorben.me/
+description: Minimal dark bento portfolio showcasing native macOS engineering and typography.
+tags: [minimal, dark, vanilla, bento, portfolio]
