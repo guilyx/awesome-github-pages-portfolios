@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: 0-draft
+repo: 0-draft/0-draft.github.io
+demo: https://0-draft.github.io/
+description: Every public 0-draft project laid out as proofs on a print-shop desk you can drag and zoom.
+tags: [astro, interactive, dark]
