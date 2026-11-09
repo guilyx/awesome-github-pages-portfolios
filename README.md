@@ -24,6 +24,7 @@
 </p>
 
 ## Contents
+- [Yorben Vandersleyen](https://yorben.me/#needle) - Clean personal dev site featuring open-source macOS software.
 
 - [Templates](#templates)
 - [Tools](#tools)
