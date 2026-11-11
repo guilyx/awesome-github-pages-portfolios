@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Korey Wang Tianru
+repo: korey2028-prog/portfolio
+demo: https://korey2028-prog.github.io/portfolio/
+description: Product-manager portfolio with case studies and working demos.
+tags: [portfolio, html, css, javascript]
+
+
+
+
