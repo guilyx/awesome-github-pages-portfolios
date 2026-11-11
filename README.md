@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://guilyx.github.io/awesome-github-pages-portfolios/"><img src="https://img.shields.io/badge/gallery-live%20previews-7c5cff?logo=githubpages&logoColor=white" alt="Gallery with live previews" /></a>
-  <img src="https://img.shields.io/badge/portfolios-40-22d3ee" alt="40 portfolios" />
+  <img src="https://img.shields.io/badge/portfolios-41-22d3ee" alt="41 portfolios" />
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml"><img src="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml/badge.svg" alt="Deploy status" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/stargazers"><img src="https://img.shields.io/github/stars/guilyx/awesome-github-pages-portfolios" alt="Stars" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/blob/master/LICENSE"><img src="https://img.shields.io/github/license/guilyx/awesome-github-pages-portfolios?color=2b9348" alt="License" /></a>
@@ -33,10 +33,11 @@
 
 ## Templates
 
-40 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
+41 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
 
 | Name | Repository | Live Demo |
 | --- | --- | --- |
+| 0-draft | [0-draft/0-draft.github.io](https://github.com/0-draft/0-draft.github.io) | [0-draft.github.io](https://0-draft.github.io/) |
 | Aboualnaser | [aboualnaser/aboualnaser.github.io](https://github.com/aboualnaser/aboualnaser.github.io) | [aboualnaser.github.io](https://aboualnaser.github.io/) |
 | Ashutosh Hathidara | [ashutosh1919/masterPortfolio](https://github.com/ashutosh1919/masterPortfolio) | [ashutoshhathidara.com](https://ashutoshhathidara.com/#/home) |
 | Behavior Tree | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p04-behavior-tree) | [v5-git-feat-compassionate-lovelace-4zgyf-3236f5-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-3236f5-hunter-a7fcabb9.vercel.app/) |
