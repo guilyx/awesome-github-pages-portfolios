@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://guilyx.github.io/awesome-github-pages-portfolios/"><img src="https://img.shields.io/badge/gallery-live%20previews-7c5cff?logo=githubpages&logoColor=white" alt="Gallery with live previews" /></a>
-  <img src="https://img.shields.io/badge/portfolios-39-22d3ee" alt="39 portfolios" />
+  <img src="https://img.shields.io/badge/portfolios-40-22d3ee" alt="40 portfolios" />
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml"><img src="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml/badge.svg" alt="Deploy status" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/stargazers"><img src="https://img.shields.io/github/stars/guilyx/awesome-github-pages-portfolios" alt="Stars" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/blob/master/LICENSE"><img src="https://img.shields.io/github/license/guilyx/awesome-github-pages-portfolios?color=2b9348" alt="License" /></a>
@@ -33,7 +33,7 @@
 
 ## Templates
 
-39 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
+40 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
 
 | Name | Repository | Live Demo |
 | --- | --- | --- |
@@ -76,6 +76,7 @@
 | Unchained Labs | [Unchained-Labs/unchained-labs.github.io](https://github.com/Unchained-Labs/unchained-labs.github.io) | [unchained-labs.github.io](https://unchained-labs.github.io/) |
 | Varad Bhogayata | [varadbhogayata/varadbhogayata.github.io](https://github.com/varadbhogayata/varadbhogayata.github.io) | [varadbhogayata.github.io](https://varadbhogayata.github.io/) |
 | Vinay Somawat | [vinaysomawat/vinaysomawat.github.io](https://github.com/vinaysomawat/vinaysomawat.github.io) | [vinaysomawat.github.io](https://vinaysomawat.github.io) |
+| Yorben Vander Sleyen | [Yvsleyen00941/Yvsleyen00941.github.io](https://github.com/Yvsleyen00941/Yvsleyen00941.github.io) | [yorben.me](https://yorben.me/) |
 
 ## Tools
 
