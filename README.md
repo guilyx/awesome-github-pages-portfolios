@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://guilyx.github.io/awesome-github-pages-portfolios/"><img src="https://img.shields.io/badge/gallery-live%20previews-7c5cff?logo=githubpages&logoColor=white" alt="Gallery with live previews" /></a>
-  <img src="https://img.shields.io/badge/portfolios-38-22d3ee" alt="38 portfolios" />
+  <img src="https://img.shields.io/badge/portfolios-39-22d3ee" alt="39 portfolios" />
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml"><img src="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml/badge.svg" alt="Deploy status" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/stargazers"><img src="https://img.shields.io/github/stars/guilyx/awesome-github-pages-portfolios" alt="Stars" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/blob/master/LICENSE"><img src="https://img.shields.io/github/license/guilyx/awesome-github-pages-portfolios?color=2b9348" alt="License" /></a>
@@ -33,7 +33,7 @@
 
 ## Templates
 
-38 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
+39 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
 
 | Name | Repository | Live Demo |
 | --- | --- | --- |
@@ -54,6 +54,7 @@
 | Hashir Shoaeb | [hashirshoaeb/home](https://github.com/hashirshoaeb/home) | [hashirshoaeb.com](https://hashirshoaeb.com/) |
 | J Rosser | [jrosseruk/jrosseruk.github.io](https://github.com/jrosseruk/jrosseruk.github.io) | [jrosseruk.github.io](https://jrosseruk.github.io/) |
 | Jayant Goel | [JayantGoel001/JayantGoel001.github.io](https://github.com/JayantGoel001/JayantGoel001.github.io) | [jayantgoel001.github.io](https://JayantGoel001.github.io/) |
+| Korey Wang Tianru | [korey2028-prog/portfolio](https://github.com/korey2028-prog/portfolio) | [korey2028-prog.github.io/portfolio](https://korey2028-prog.github.io/portfolio/) |
 | Liberxue | [Liberxue/liberxue.github.io](https://github.com/Liberxue/liberxue.github.io) | [liberxue.github.io](https://liberxue.github.io) |
 | Mark MacNeil | [mmacneil/devfolio](https://github.com/mmacneil/devfolio) | [mmacneil.github.io/devfolio](https://mmacneil.github.io/devfolio/) |
 | Night Drone Show | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p10-drone-show) | [v5-git-feat-compassionate-lovelace-4zgyf-2d9ae2-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-2d9ae2-hunter-a7fcabb9.vercel.app/) |
