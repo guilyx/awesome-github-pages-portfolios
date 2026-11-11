@@ -28,12 +28,14 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           # 403 and 429 are accepted: many hosts block bots or rate-limit them.
+          # Stargazers pages need a signed-in session, so GitHub rejects them for bots (404 or 403).
           args: >-
             --no-progress
             --max-retries 3
             --timeout 30
             --accept "100..=103,200..=299,403,429"
             --exclude "github\.com/.+/new/"
+            --exclude "github\.com/.+/stargazers$"
             README.md
           fail: false
 
