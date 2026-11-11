@@ -1,5 +1,6 @@
 # yaml-language-server: $schema=../../schema/portfolio.schema.json
-name: The Maze
+name: Erwin Portfolio v5
 repo: guilyx/v5
-demo: https://v5-git-feat-compassionate-lovelace-4zgyf-f54e3c-hunter-a7fcabb9.vercel.app/
+demo: https://v5.elejeune.me
 description: Drive a robot through a maze, room by room, to explore the career. Click, tap or use WASD.
+added: 2026-11-11

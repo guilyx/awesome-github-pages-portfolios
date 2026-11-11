@@ -47,6 +47,7 @@
 | Erwin Portfolio v2 | [guilyx/v2](https://github.com/guilyx/v2) | [v2.elejeune.me](https://v2.elejeune.me) |
 | Erwin Portfolio v3 | [guilyx/v3](https://github.com/guilyx/v3) | [v3.elejeune.me](https://v3.elejeune.me) |
 | Erwin Portfolio v4 | [guilyx/v4](https://github.com/guilyx/v4) | [v4.elejeune.me](https://v4.elejeune.me) |
+| Erwin Portfolio v5 | [guilyx/v5](https://github.com/guilyx/v5) | [v5.elejeune.me](https://v5.elejeune.me) |
 | Erwin Resume | [guilyx/resume](https://github.com/guilyx/resume) | [resume.elejeune.me](https://resume.elejeune.me) |
 | Evanca | [evanca/quick-portfolio](https://github.com/evanca/quick-portfolio) | [yourawesomeusername.github.io](https://yourawesomeusername.github.io/) |
 | Facundo Allia Fernandez | [facundoallia/facundoallia.github.io](https://github.com/facundoallia/facundoallia.github.io) | [facundoallia.github.io](https://facundoallia.github.io/) |
@@ -72,7 +73,6 @@
 | Starry Museum | [skyjjgw/starry-museum-portfolio](https://github.com/skyjjgw/starry-museum-portfolio) | [skyjjgw.github.io/starry-museum-portfolio](https://skyjjgw.github.io/starry-museum-portfolio/) |
 | The Desk | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p06-the-desk) | [v5-git-feat-compassionate-lovelace-4zgyf-7e6e64-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-7e6e64-hunter-a7fcabb9.vercel.app/) |
 | The Film | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p07-the-film) | [v5-git-feat-compassionate-lovelace-4zgyf-eb93d5-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-eb93d5-hunter-a7fcabb9.vercel.app/) |
-| The Maze | [guilyx/v5](https://github.com/guilyx/v5) | [v5-git-feat-compassionate-lovelace-4zgyf-f54e3c-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-f54e3c-hunter-a7fcabb9.vercel.app/) |
 | Tiny City | [guilyx/v5](https://github.com/guilyx/v5/tree/feat/compassionate-lovelace-4zgyf1-p02-tiny-city) | [v5-git-feat-compassionate-lovelace-4zgyf-2bbda0-hunter-a7fcabb9.vercel.app](https://v5-git-feat-compassionate-lovelace-4zgyf-2bbda0-hunter-a7fcabb9.vercel.app/) |
 | Unchained Labs | [Unchained-Labs/unchained-labs.github.io](https://github.com/Unchained-Labs/unchained-labs.github.io) | [unchained-labs.github.io](https://unchained-labs.github.io/) |
 | Varad Bhogayata | [varadbhogayata/varadbhogayata.github.io](https://github.com/varadbhogayata/varadbhogayata.github.io) | [varadbhogayata.github.io](https://varadbhogayata.github.io/) |
