@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=../../schema/portfolio.schema.json
+name: Sanoj D
+repo: d-sanoj/sine-portfolio
+demo: https://sanoj.dev
+description: A portfolio drawn entirely from sine waves.
+tags: [creative, canvas, minimal, dark]
+added: 2026-11-17
