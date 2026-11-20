@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://guilyx.github.io/awesome-github-pages-portfolios/"><img src="https://img.shields.io/badge/gallery-live%20previews-7c5cff?logo=githubpages&logoColor=white" alt="Gallery with live previews" /></a>
-  <img src="https://img.shields.io/badge/portfolios-41-22d3ee" alt="41 portfolios" />
+  <img src="https://img.shields.io/badge/portfolios-42-22d3ee" alt="42 portfolios" />
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml"><img src="https://github.com/guilyx/awesome-github-pages-portfolios/actions/workflows/deploy.yml/badge.svg" alt="Deploy status" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/stargazers"><img src="https://img.shields.io/github/stars/guilyx/awesome-github-pages-portfolios" alt="Stars" /></a>
   <a href="https://github.com/guilyx/awesome-github-pages-portfolios/blob/master/LICENSE"><img src="https://img.shields.io/github/license/guilyx/awesome-github-pages-portfolios?color=2b9348" alt="License" /></a>
@@ -33,7 +33,7 @@
 
 ## Templates
 
-41 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
+42 portfolios, sorted alphabetically. Want screenshots? See them in the [gallery](https://guilyx.github.io/awesome-github-pages-portfolios/).
 
 | Name | Repository | Live Demo |
 | --- | --- | --- |
@@ -67,6 +67,7 @@
 | Ryan Fitzgerald | [RyanFitzgerald/devportfolio](https://github.com/RyanFitzgerald/devportfolio) | [ryanfitzgerald.github.io/devportfolio](https://ryanfitzgerald.github.io/devportfolio) |
 | Saadpasta | [saadpasta/developerFolio](https://github.com/saadpasta/developerFolio) | [developerfolio.js.org](https://developerfolio.js.org/) |
 | Sagar Gupta | [Sagargupta16/portfolio-react](https://github.com/Sagargupta16/portfolio-react) | [sagargupta.online/portfolio-react](https://sagargupta.online/portfolio-react/) |
+| Sanoj D | [d-sanoj/sine-portfolio](https://github.com/d-sanoj/sine-portfolio) | [sanoj.dev](https://sanoj.dev) |
 | Sara Gong | [saragong/hello](https://github.com/saragong/hello) | [saragong.github.io/hello](https://saragong.github.io/hello/) |
 | Sergio Fernández | [GeiserX/cv](https://github.com/GeiserX/cv) | [cv.geiser.cloud](https://cv.geiser.cloud/) |
 | Shengxiang Lin | [Shengxiang-Lin/Shengxiang-Lin.github.io](https://github.com/Shengxiang-Lin/Shengxiang-Lin.github.io) | [shengxiang-lin.github.io](https://Shengxiang-Lin.github.io) |
